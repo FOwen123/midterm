@@ -1,0 +1,23 @@
+# Ignore sensitive config
+wp-config.php
+
+# Ignore uploads
+wp-content/uploads/
+
+# Ignore plugin/theme folders you didn't write
+wp-content/plugins/*
+!wp-content/plugins/your-plugin-name/
+wp-content/themes/*
+!wp-content/themes/your-theme-name/
+
+# Ignore database exports
+*.sql
+
+# System files
+.DS_Store
+Thumbs.db
+*.log
+
+# IDE files
+.vscode/
+.idea/
