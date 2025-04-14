@@ -10,9 +10,6 @@ wp-content/plugins/*
 wp-content/themes/*
 !wp-content/themes/your-theme-name/
 
-# Ignore database exports
-*.sql
-
 # System files
 .DS_Store
 Thumbs.db
